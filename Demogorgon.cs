@@ -1,5 +1,5 @@
 /******************************************************************************
-Autor: Juan Arango y andresito martinez
+Autor: Juan Arango y andres martinez
 Fecha creacion: 2024-05.16
 Descripcion:Los personajes de Stranger Things necesitan
 un programa en C# para registrar los encuentros
