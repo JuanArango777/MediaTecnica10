@@ -1,0 +1,29 @@
+/******************************************************************************
+
+Autor: Juan Arango
+Fecha: 2024-05-22
+Descripción: Programa con decisiones para
+             habilitar votacion de personas y 
+             descuento matricula estudio.
+
+*******************************************************************************/
+using System;
+class HelloWorld {
+  static void Main() {
+    // variables
+    int edad;
+    int valorMatricula;
+    // pedicion de datos
+    Console.WriteLine("DIgite su edad");
+    edad = Int32.Parse(Console.ReadLine());
+    
+    Console.WriteLine("DIgite su valor de matricula");
+    valorMatricula = Int32.Parse(Console.ReadLine());
+
+    // validacion
+    if(edad >= 18){
+        Console.WriteLine("felicidades, usted puede votar");
+        Console.WriteLine("usted pagara de matricla: " + (valorMatricula * 0.85));
+    }
+  }
+}
