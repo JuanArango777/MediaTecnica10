@@ -1,0 +1,41 @@
+/******************************************************************************
+autor:        Juan Arango
+fecha:        22/05/2024
+decripcion:
+tony strak,iron man, quieren saber cuanto dinero debe tener para comprar x tornillos c/u a 300$,
+pero en la tienda le dan descuentos segun cantidad comprada.
+crear un algoritmo que ayude a calcular su compra;
+   1 sin descuentos
+   5 descuento del 30%
+   10 descuento del 50%.
+
+*******************************************************************************/
+using System;
+class ProgramaDescuentos{
+  static void Main() {
+      int valorTornillo = 300;
+     int tornillos;
+     
+      valorTornillo = 300;
+      Console.WriteLine("El valor del tornilo es de: " + valorTornillo + "$");
+      Console.WriteLine("¿cuantos tornillos van a comprar?");
+      tornillos = Int32.Parse(Console.ReadLine());
+     
+      if(valorTornillo <= 4){
+          Console.WriteLine("usted ah comprado menos 5 tornillos ");
+            Console.WriteLine("usted no recibe descuento");
+      }
+      if(tornillos ==5){
+      Console.WriteLine("usted ah comprado 5 tornillos o mas");
+      Console.WriteLine("usted recibe el descuento del 30%" + (tornillos / * 0.70));
+     
+      }
+      if(tornillos ==10){
+          Console.WriteLine("usted ah comprado 10 tornillos o mas");
+            Console.WriteLine("usted recibe el descuento del 50%" + (tornillos * 0.50));
+      }
+     
+   
+           }
+       }
+      
