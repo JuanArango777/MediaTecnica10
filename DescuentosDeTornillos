@@ -17,23 +17,26 @@ class ProgramaDescuentos{
      int tornillos;
      
       valorTornillo = 300;
-      Console.WriteLine("El valor del tornilo es de: " + valorTornillo + "$");
+      Console.WriteLine("Señor Tony Starck, ¿Cuantos tornillos desea?");
+      Console.WriteLine("El valor de los tornilos es de: " + valorTornillo + "$ c/u");
       Console.WriteLine("¿cuantos tornillos van a comprar?");
       tornillos = Int32.Parse(Console.ReadLine());
      
       if(tornillos <= 4){
-          Console.WriteLine("usted ah comprado menos 5 tornillos ");
+          Console.WriteLine("usted ah comprado menos de 5 tornillos ");
             Console.WriteLine("usted no recibe descuento");
+            Console.WriteLine("EL total a pagar es de: " + (tornillos * 300) + "$");
       }
-      if(tornillos ==5){
-      Console.WriteLine("usted ah comprado 5 tornillos o mas");
-      Console.WriteLine("usted recibe el descuento del 30%" + (tornillos  * 0.70));
+      if(tornillos >=5 && tornillos <=9){
+      Console.WriteLine("usted ah comprado 5 o mas tornillos");
+      Console.WriteLine("usted recibe el descuento del 30%" );
+      Console.WriteLine("EL total a pagar es de: " + (tornillos  * 0.70));
      
-     }
       }
-      if(tornillos >=10){
+      if(tornillos >= 10){
           Console.WriteLine("usted ah comprado 10 o mas tornillos");
-            Console.WriteLine("usted recibe el descuento del 50% " + (tornillos * 0.50 + "$"));
+            Console.WriteLine("usted recibe el descuento del 50% " );
+            Console.WriteLine("EL total a pagar es de: " + (tornillos * 0.50 + "$"));
       }
      
       
