@@ -30,13 +30,13 @@ class ProgramaDescuentos{
       if(tornillos >=5 && tornillos <=9){
       Console.WriteLine("usted ah comprado 5 o mas tornillos");
       Console.WriteLine("usted recibe el descuento del 30%" );
-      Console.WriteLine("EL total a pagar es de: " + (tornillos  * 0.70));
+      Console.WriteLine("EL total a pagar es de: " + (tornillos  * valorTornillo * 0.70 + "$"));
      
       }
       if(tornillos >= 10){
           Console.WriteLine("usted ah comprado 10 o mas tornillos");
             Console.WriteLine("usted recibe el descuento del 50% " );
-            Console.WriteLine("EL total a pagar es de: " + (tornillos * 0.50 + "$"));
+            Console.WriteLine("EL total a pagar es de: " + (tornillos * valorTornillo * 0.50 + "$"));
       }
      
       
