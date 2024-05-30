@@ -1,0 +1,36 @@
+/******************************************************************************
+
+autor:        Juan Arango
+fecha:        30/05/2024
+
+*******************************************************************************/
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("Digite una nota de 1 hasta 5: ");
+    int nota = Int32.Parse(Console.ReadLine());
+    
+    switch (nota)
+    {
+    case 1:
+     Console.WriteLine("Perdiste 😔 ");
+     break;
+     case 2:
+     Console.WriteLine("Perdiste 🙁 ");
+     break;
+     case 3:
+     Console.WriteLine("Ganaste 😆 ");
+     break;
+     case 4:
+     Console.WriteLine("ALto 🤩 ");
+     break;
+     case 5:
+     Console.WriteLine("Superior 🤑 ");
+     break;
+    default :
+    Console.WriteLine("Esa no es una nota valida 😡 ");
+    Console.WriteLine("Finalizando programa...");
+    break;
+    }
+  }
+}
