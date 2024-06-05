@@ -1,0 +1,65 @@
+/******************************************************************************
+
+autor: Juan Arango
+fecha: 06/06/2024
+descriocion:El Rey León: 
+    Las manadas de la Roca del Rey están compitiendo 
+    por el control de las Tierras del Reino. 
+    Pide al usuario la fuerza de al menos 5 
+    clanes diferentes y usa estructuras "si" 
+    para determinar clasificación de fuerza.
+
+*******************************************************************************/
+using System;
+class HelloWorld {
+  static void Main(string[] args) {
+      
+      // variables
+      Console.WriteLine("Elija un numero de manada del 1 al 5");
+      
+          for (int i = 0; i < 5; i++) 
+        {
+            Console.WriteLine(i);
+        }
+     int Manada = Int32.Parse(Console.ReadLine());
+
+          if (Manada == 1)
+      {
+          Console.WriteLine("usted pertenece a los Leones🦁");
+      }
+      
+      if (Manada == 2)
+      {
+          Console.WriteLine("usted pertenece a las Hienas🐆");
+      }
+      
+      if (Manada == 3)
+      {
+          Console.WriteLine("usted pertenece a los Elefantes 🐘");
+      }
+      
+      if (Manada == 4)
+      {
+          Console.WriteLine("usted pertenece a los Hipopotamos🦛");
+      }
+      
+      if (Manada == 5)
+      {
+          Console.WriteLine("usted pertenece a las cebras🦓");
+      }
+       
+       else if (Manada >5)
+       {
+           Console.WriteLine("numero invalido");
+           Console.WriteLine("Finalizando ejecucion...");
+       }
+  
+  }
+  }
+      // estructura loop (for)
+         //solicitud de fuerza
+         // validacion y clasificación
+
+
+
+
