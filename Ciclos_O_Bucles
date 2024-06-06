@@ -1,0 +1,19 @@
+/******************************************************************************
+
+Autor: Juan Arango 💸
+Fecha: 06/06/2024
+Descripcion:    Programa aprendizaje bucles o 
+                ciclos (repetir - while)
+*******************************************************************************/
+using System;
+class HelloWorld {
+  static void Main() {
+    
+    int i = 0;
+    while (i < 500)
+    {
+        Console.WriteLine(i);
+        i++;
+    }
+  }
+}
