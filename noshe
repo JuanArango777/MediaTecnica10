@@ -1,0 +1,17 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+using System;
+class MiSegundoVector {
+  static void Main() {
+      string[] frases = ("ci caminas solo llegaras mas rapido pero si caminas acompañado llegaras mas lejos",
+      "fallar no es de tontos, es de valientes",
+      "podre caer en muchos errores pero nunca en el mismo error")
+     
+  }
+}
