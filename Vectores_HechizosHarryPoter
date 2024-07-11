@@ -1,0 +1,57 @@
+/*
+
+Autor:          Juan Arango 💸
+
+Fecha:          11/07/2024
+
+    Descripcion:
+        Harry Potter necesita un programa 
+        en C# para listar sus hechizos. 
+        Completa el espacio en blanco 
+        para mostrar los nombres de los 
+        hechizos en la consola:
+*/
+ 
+using System;
+using System.Threading;
+class Program{
+
+    static void Main(string[] args){
+    
+Console.WriteLine("WWWWWWWWWWWWWWWX:,OWWWWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWNo.,0WWWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWk. :xKWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWK;...cKWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWNl';;'cXWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWWx':dc'lXWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWW0;;ddc'oXWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWKdldxk0KXKc'cox:'dNWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWXc.'::::cc,';oxd:'dNWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWKc,okxxddoodxkxd;,xNWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWKc,oxdl;,;::clll,,kWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWW0:,oxc.;dddolcc;':KWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWW0;;oo':XWWWWWNXKKNWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWO;;o;,OWWWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWk,;:'dNWWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWx,'.c0XWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWNx'.,o0WWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWNd..,xWWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WWWWWWWWWWWWWWWWWNo. cNWWWWWWWWWWWWWWWWW");
+Console.WriteLine("WMWWWMWWWWWWWWWWWWK: :XMWWWWWWWWWWWWMWWW");
+    
+        Thread.Sleep(2000);
+    Console.Clear();
+        string[] hechizos = { "Expecto Patronum", "Wingardium Leviosa", "Expelliarmus" };
+        
+        for (int i = 0; (i+1) < 4; i++) 
+        {
+        Console.WriteLine(hechizos[i]);
+        }
+    
+}
+}
+
+
+
+
+
