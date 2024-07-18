@@ -1,0 +1,37 @@
+/******************************************************************************
+
+Autor:          Juan Arango
+Fecha:          18 de julio de 2024
+Descripcion:    
+            calculadora para frases
+            que incluya un menu para ingresas a opcion
+            Debe permitir ingresar la frase y luego calcular cantidad de letras que tiene.
+            
+*******************************************************************************/
+using System;
+
+class Program
+{
+    static void Main(){
+        Menu();
+        Console.WriteLine("Escriba una frase cualesquiera");
+        string frase = Console.ReadLine();
+        Console.WriteLine("Su frase tiene " + frase.Length + " cantidad de caracteres.");
+        buscarPalabra("universo", frase);
+    }
+    static void Menu(){
+        Console.WriteLine("------------");
+        Console.WriteLine("----MENU----");
+        Console.WriteLine("------------");
+    }
+    static void buscarPalabra(string palabra, string frase){
+        if (frase.Contains( palabra )){
+            Console.WriteLine("Existe esa palabra buscada: " + palabra );
+            
+        }
+        else{Console.WriteLine("No existe esa palabra buscada: " + palabra );
+    }
+    
+}
+    
+}
